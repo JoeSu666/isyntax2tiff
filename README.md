@@ -25,8 +25,7 @@ Please follow the installation instructions in the [`environment_installment`](.
 Create a list of iSyntax files to process:
 
 ```bash
-find /path/to/isyntax/folder -maxdepth 1 -type f -name "*.isyntax" -printf "%f\n" | sort > input_li
-st.txt
+find /path/to/isyntax/folder -maxdepth 1 -type f -name "*.isyntax" | sort > input_list.txt
 ```
 
 Replace `/path/to/isyntax/folder` with the actual path to your iSyntax files.
